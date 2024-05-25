@@ -22,3 +22,17 @@ ul{
     display: flex;
     gap: 16px;
 }
+.header-info{
+    display: flex;
+    justify-content: space-between;
+}
+.header-text{
+    display: flex;
+    flex-direction: column;
+}
+button{
+    width: 75px;
+    background-color: #3882f6;
+    color: #ffffff;
+    border-radius: 6px;
+}
