@@ -26,9 +26,12 @@ ul{
     padding-right: 32px;
 }
 .header-container{
+    flex-wrap: wrap;
     display: flex;
+    justify-content: center;
     gap: 48px;
     margin-bottom: 48px;
+    padding: 32px;
 }
 .header-info{
     display: flex;
@@ -42,7 +45,6 @@ ul{
     display: flex;
     flex-direction: column;
     margin-left: auto;
-    padding: 32px;
     
 }
 .header-text-heading{
@@ -81,6 +83,10 @@ button{
 .info-imgs{
     display: flex;
     gap: 32px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 8px;
 }
 .rounded-corner{
     border-radius: 6px;
@@ -134,12 +140,14 @@ a{
     border-radius: 4px;
     margin: 32px auto;
     width: 75%;
+    padding: 16px;
 }
 .call-heading{
     font-weight: bold;
 }
 .call-button{
     height: 25px;
+    min-width: 100px;
     border: solid 1px #ffffff;
 }
 .footer{
