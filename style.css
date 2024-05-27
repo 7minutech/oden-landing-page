@@ -83,3 +83,28 @@ a{
     text-decoration: none;
     color: #f9faf8      ;
 }
+.quote{
+    color: #1f2937;
+    background-color: #e5e7eb;
+    font-size: 24px;
+}
+.quote-text{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+    width: 75%;
+    margin: 48px auto 0 auto;
+    padding: 16px;
+    gap: 16px;
+}
+.quote-info{
+    font-style: italic;
+    align-items: center;
+}
+.quote-credit{
+    font-weight: bold;
+    font-size: 16px;
+    height: 100px;
+    align-self: flex-end;
+}
