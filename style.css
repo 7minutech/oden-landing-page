@@ -115,9 +115,6 @@ a{
     align-items: center;
     height: 300px;
 }
-.sing-up{
-
-}
 .sign-up-container{
     color: #f9faf8;
     background-color: #3882f6;
@@ -136,4 +133,12 @@ a{
 .call-button{
     height: 25px;
     border: solid 1px #ffffff;
+}
+.footer{
+    padding: 32px;
+    background-color: #1f2937;
+    color: #f9faf8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
