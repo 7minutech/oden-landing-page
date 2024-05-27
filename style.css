@@ -25,13 +25,17 @@ ul{
     gap: 32px;
     padding-right: 32px;
 }
+.header-container{
+    display: flex;
+    gap: 48px;
+    margin-bottom: 48px;
+}
 .header-info{
     display: flex;
     background-color: #1f2937;
     color: #ffffff;
-    align-items: flex-start;
-    gap: 48px;
     justify-content: center;
+    align-items: center;
 }
 .header-text{
     flex: 1;
