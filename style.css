@@ -108,3 +108,32 @@ a{
     height: 100px;
     align-self: flex-end;
 }
+.sing-up{
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+}
+.sing-up{
+
+}
+.sign-up-container{
+    color: #f9faf8;
+    background-color: #3882f6;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 48px;
+    height: 75px;
+    align-items: center;
+    border-radius: 4px;
+    margin: 32px auto;
+    width: 75%;
+}
+.call-heading{
+    font-weight: bold;
+}
+.call-button{
+    height: 25px;
+    border: solid 1px #ffffff;
+}
