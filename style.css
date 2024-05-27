@@ -134,17 +134,18 @@ a{
     background-color: #3882f6;
     display: flex;
     justify-content: space-evenly;
-    gap: 48px;
+    gap: 32px;
     height: 75px;
     align-items: center;
     border-radius: 4px;
     margin: 32px auto;
     width: 75%;
-    padding: 16px;
+    padding: 24px;
 }
 .call-heading{
     font-weight: bold;
 }
+
 .call-button{
     height: 25px;
     min-width: 100px;
